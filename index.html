@@ -6,13 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
-
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <script src="https://kit.fontawesome.com/9526a052de.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
+
   <header class="px-4">
     <nav class="navbar navbar-expand-lg navbar-dark px-4">
       <div class="container-fluid">
@@ -25,19 +25,19 @@
         </button>
         <div class="collapse navbar-collapse" id="navbar1">
           <ul class="navbar-nav text-center ml-auto ms-auto">
-            <li class="nav-item active">
+            <li class="nav-item ">
               <a class="nav-link" href="./index.html">Home </span></a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item ">
               <a class="nav-link" href="./Services.html">Services </span></a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item ">
               <a class="nav-link" href="./Gallery.html">Gallery </span></a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item ">
               <a class="nav-link" href="./About.html">About Us </span></a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item ">
               <a class="nav-link" href="./Contact.html">Contact </span></a>
             </li>
           </ul>
@@ -121,19 +121,42 @@
           </p>
         </div>
       </div>
-      <button><a href="./Gallery.html">Expore More</a></button>
     </div>
   </section>
   <section class="creative-designs">
-    <h1 class="text-center">Our creative work and designs</h1>
+    <h1 class="text-center pb-0">Our creative work and designs</h1>
     <div class="container">
-      <div class="row">
+      <div class="triangle-play mb-3 ">
+        <i class="fa-regular fa-image" title="images"></i>
+      </div>
+      <div class="row gallery-row">
         <div class="col-md-4"><img src="./images/mehandi6.png" alt="" /></div>
         <div class="col-md-4"><img src="./images/mehandi2.jpg" alt="" /></div>
         <div class="col-md-4"><img src="./images/mehandi5.avif" alt="" /></div>
-        <button><a href="./Gallery.html">Expore More</a></button>
       </div>
-    </div>
+      <div class="row video-row justify-content-center">
+        <div class="triangle-play my-4" title="Videos">
+          <i class="fa-solid fa-play"></i>
+        </div>
+        <div class="video my-2 mx-0" style="width: 15rem; height:20rem"> <video>
+            <source src="./videos/MehndiVideos/mehndiVid5.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="video my-2 mx-0" style="width: 15rem; height:20rem"><video>
+            <source src="./videos/MehndiVideos/mehndiVid9.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="video my-2 mx-0" style="width: 15rem; height:20rem"> <video>
+            <source src="./videos/MehndiVideos/mehndiVid3.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="video my-2 mx-0" style="width: 15rem; height:20rem"> <video>
+            <source src="./videos/MehndiVideos/mehndiVid4.mp4" type="video/mp4">
+          </video>
+        </div>
+        <i class="fa-solid fa-xmark" onclick="CloseVid()"></i>
+      </div>
+      <button class="my-3"><a href="./Gallery.html">Explore More</a></button>
   </section>
   <section class="footer">
     <footer class="text-center text-lg-start" style="background: #0b0b0ba8; color: #fff;">
@@ -187,7 +210,7 @@
 
   <script src="./js/jquery.min.js"></script>
   <script src="./js/bootstrap.min.js"></script>
-  <script src="script.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
